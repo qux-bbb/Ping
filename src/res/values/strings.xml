@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ping</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="host">Host</string>
+    <string name="host_hint">127.0.0.1</string>
+</resources>
