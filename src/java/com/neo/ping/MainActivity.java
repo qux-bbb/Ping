@@ -1,10 +1,9 @@
-package com.neo.ping;
+package com.qux.ping;
 
 import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.support.v4.media.TransportMediator;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
@@ -51,7 +50,7 @@ public class MainActivity extends Activity {
                     }
                     MainActivity.this.scrollViewMain.post(new Runnable() {
                         public void run() {
-                            MainActivity.this.scrollViewMain.fullScroll(TransportMediator.KEYCODE_MEDIA_RECORD);
+                            MainActivity.this.scrollViewMain.fullScroll(ScrollView.FOCUS_DOWN);
                         }
                     });
                 }
